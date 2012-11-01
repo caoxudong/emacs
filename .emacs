@@ -67,3 +67,8 @@
 ;;change 'yes' and 'no' to 'y' and 'n'
 (fset 'yes-or-no-p 'y-or-n-p)
 
+
+;;add markdown mode
+(autoload 'markdown-mode "E:\\software\\program\\etc\\emacs\\plugins\\markdown\\markdown-mode.el" "Major mode for editing Markdown files" t) 
+(setq auto-mode-alist (cons '("\\.md" . markdown-mode) auto-mode-alist))
+
