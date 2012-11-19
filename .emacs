@@ -72,3 +72,10 @@
 (autoload 'markdown-mode "E:\\software\\program\\etc\\emacs\\plugins\\markdown\\markdown-mode.el" "Major mode for editing Markdown files" t) 
 (setq auto-mode-alist (cons '("\\.md" . markdown-mode) auto-mode-alist))
 
+;;add org-mode
+(add-to-list 'load-path "E:\\software\\program\\etc\\emacs\\plugins\\org\\org-7.9.2")
+(require 'org)
+(add-to-list 'auto-mode-alist '("\\.org$" . org-mode))
+(define-key global-map "\C-cl" 'org-store-link)
+(define-key global-map "\C-ca" 'org-agenda)
+(setq org-log-done t)
