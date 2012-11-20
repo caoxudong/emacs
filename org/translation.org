@@ -2,7 +2,20 @@
 
 ** ImportNew
 
+*** DONE Java Versions, Features and History
+    CLOSED: [2012-11-20 周二 10:22] SCHEDULED: <2012-11-02 周五>
 
+    original address [[http://javapapers.com/core-java/java-features-and-history/]]
+
+*** DONE How Spring 3.1 Environments & Profiles will make your life better
+    CLOSED: [2012-11-20 周二 10:18] SCHEDULED: <2012-11-09 周五>
+
+    original address [[http://diarmuidmoloney.wordpress.com/2012/04/07/spring-environments/][http://diarmuidmoloney.wordpress.com/2012/04/07/spring-environments/]]
+
+*** TODO Where is the "Ftaher of Java"
+    SCHEDULED: <2012-11-20 周二>
+
+    original address [[http://blog.jelastic.com/2012/06/28/where-is-the-father-of-java/][http://blog.jelastic.com/2012/06/28/where-is-the-father-of-java/]]
 
 
 ** Machine Learning for Hackers
