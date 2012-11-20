@@ -56,3 +56,8 @@
      SCHEDULED: <2012-11-20 周二>
 
     [[https://github.com/caoxudong/translation/blob/master/java/jvm/JVM_performance_optimization_Part_1_A_JVM_technology_primer.md][Address at GitHub]]
+
+**** TODO The Nature of Lisp
+     SCHEDULED: <2012-11-20 周二>
+
+     Original address [[http://www.defmacro.org/ramblings/lisp.html][http://www.defmacro.org/ramblings/lisp.html]]
