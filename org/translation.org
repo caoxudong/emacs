@@ -14,7 +14,7 @@
     original address [[http://diarmuidmoloney.wordpress.com/2012/04/07/spring-environments/][http://diarmuidmoloney.wordpress.com/2012/04/07/spring-environments/]]
 
 
-*** TODO Where is the "Ftaher of Java"
+*** TODO Where is the "Father of Java"
     SCHEDULED: <2012-11-20 ÖÜ¶þ>
 
     original address [[http://blog.jelastic.com/2012/06/28/where-is-the-father-of-java/][http://blog.jelastic.com/2012/06/28/where-is-the-father-of-java/]]
