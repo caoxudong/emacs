@@ -20,23 +20,39 @@
     original address [[http://blog.jelastic.com/2012/06/28/where-is-the-father-of-java/][http://blog.jelastic.com/2012/06/28/where-is-the-father-of-java/]]
 
 
-** Machine Learning for Hackers
+** Cooperation
 
-*** DONE 翻译2.1 ~ 2.5
+*** Machine Learning for Hackers
+
+**** DONE 翻译2.1 ~ 2.5
    CLOSED: [2012-11-19 周一 11:09] SCHEDULED: <2012-10-24 周三>
 
    翻的有点慢，后续需要加快速度
 
 
-*** DONE 5.1 Regression: Predicting Page View
+**** DONE 5.1 Regression: Predicting Page View
     CLOSED: [2012-11-20 周二 09:58] SCHEDULED: <2012-11-19 周一>
 
     [[https://github.com/caoxudong/ml_hackers/blob/master/5.1.md][5.1.md at github]]
 
 
-*** TODO 5.1.1 The Baseline Model
+**** TODO 5.1.1 The Baseline Model
     SCHEDULED: <2012-11-20 周二>
 
     [[    SCHEDULED: <2012-11-20 周二>][5.1.1.md at github]]
 
 
+** Roll my own
+
+*** Blogs
+
+**** DONE Five Way To Maximize Java NIO And NIO.2
+     CLOSED: [2012-11-09 周二 14:38]
+
+     [[https://github.com/caoxudong/translation/blob/master/java/nio/Five_way_%20to_maximize_Java_NIO_and_NIO.2.md][Address at GitHub]]
+
+
+**** TODO JVM Performance Optimization: Part 1 A JVM Technology Primer
+     SCHEDULED: <2012-11-20 周二>
+
+    [[https://github.com/caoxudong/translation/blob/master/java/jvm/JVM_performance_optimization_Part_1_A_JVM_technology_primer.md][Address at GitHub]]
