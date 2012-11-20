@@ -33,13 +33,13 @@
 **** DONE 5.1 Regression: Predicting Page View
     CLOSED: [2012-11-20 周二 09:58] SCHEDULED: <2012-11-19 周一>
 
-    [[https://github.com/caoxudong/ml_hackers/blob/master/5.1.md][5.1.md at github]]
+    [[https://github.com/caoxudong/ml_hackers/blob/master/5.1.md][5.1.md at github    https://github.com/caoxudong/ml_hackers/blob/master/5.1.md]]
 
 
 **** TODO 5.1.1 The Baseline Model
     SCHEDULED: <2012-11-20 周二>
 
-    [[    SCHEDULED: <2012-11-20 周二>][5.1.1.md at github]]
+    [[https://github.com/caoxudong/ml_hackers/blob/master/5.1.1.md][5.1.1.md at github    https://github.com/caoxudong/ml_hackers/blob/master/5.1.1.md]]
 
 
 ** Roll my own
