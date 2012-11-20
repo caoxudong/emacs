@@ -1,0 +1,25 @@
+* TASK
+
+** ImportNew
+
+
+
+
+** Machine Learning for Hackers
+
+*** DONE 翻译2.1 ~ 2.5
+   CLOSED: [2012-11-19 周一 11:09] SCHEDULED: <2012-10-24 周三>
+
+   翻的有点慢，后续需要加快速度
+
+*** DONE 5.1 Regression: Predicting Page View
+    CLOSED: [2012-11-20 周二 09:58] SCHEDULED: <2012-11-19 周一>
+
+    [[https://github.com/caoxudong/ml_hackers/blob/master/5.1.md][5.1.md at github]]
+
+
+*** TODO 5.1.1 The Baseline Model
+    SCHEDULED: <2012-11-20 周二>
+
+    [[    SCHEDULED: <2012-11-20 周二>][5.1.1.md at github]]
+
