@@ -14,7 +14,7 @@
     original address [[http://diarmuidmoloney.wordpress.com/2012/04/07/spring-environments/][http://diarmuidmoloney.wordpress.com/2012/04/07/spring-environments/]]
 
 
-*** TODO Where is the "Father of Java"
+*** DOING Where is the "Father of Java"
     SCHEDULED: <2012-11-20 周二>
 
     original address [[http://blog.jelastic.com/2012/06/28/where-is-the-father-of-java/][http://blog.jelastic.com/2012/06/28/where-is-the-father-of-java/]]
@@ -52,7 +52,7 @@
      [[https://github.com/caoxudong/translation/blob/master/java/nio/Five_way_%20to_maximize_Java_NIO_and_NIO.2.md][Address at GitHub]]
 
 
-**** TODO JVM Performance Optimization: Part 1 A JVM Technology Primer
+**** DOING JVM Performance Optimization: Part 1 A JVM Technology Primer
      SCHEDULED: <2012-11-20 周二>
 
     [[https://github.com/caoxudong/translation/blob/master/java/jvm/JVM_performance_optimization_Part_1_A_JVM_technology_primer.md][Address at GitHub]]
@@ -61,3 +61,5 @@
      SCHEDULED: <2012-11-20 周二>
 
      Original address [[http://www.defmacro.org/ramblings/lisp.html][http://www.defmacro.org/ramblings/lisp.html]]
+
+

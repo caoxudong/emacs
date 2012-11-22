@@ -115,3 +115,7 @@
 (setq org-agenda-files (list "E:/workspace/git/emacs/org/translation.org"
                              "E:/workspace/company/project/etc/projects.org"
                            ))
+;;set not convert sub superscripts
+(setq org-export-with-sub-superscripts '{})
+;;add costumized status
+(setq org-todo-keywords '((type "TODO" "DOING" "|" "DONE" "CANCELED")))
