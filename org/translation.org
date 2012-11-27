@@ -14,8 +14,8 @@
     original address [[http://diarmuidmoloney.wordpress.com/2012/04/07/spring-environments/][http://diarmuidmoloney.wordpress.com/2012/04/07/spring-environments/]]
 
 
-*** DOING Where is the "Father of Java"
-    SCHEDULED: <2012-11-20 周二>
+*** DONE Where is the "Father of Java"
+    CLOSED: [2012-11-26 周一 15:25] SCHEDULED: <2012-11-20 周二>
 
     original address [[http://blog.jelastic.com/2012/06/28/where-is-the-father-of-java/][http://blog.jelastic.com/2012/06/28/where-is-the-father-of-java/]]
 
@@ -36,8 +36,8 @@
     [[https://github.com/caoxudong/ml_hackers/blob/master/5.1.md][5.1.md at github    https://github.com/caoxudong/ml_hackers/blob/master/5.1.md]]
 
 
-**** TODO 5.1.1 The Baseline Model
-    SCHEDULED: <2012-11-20 周二>
+**** DOING 5.1.1 The Baseline Model
+     SCHEDULED: <2012-11-20 周二>
 
     [[https://github.com/caoxudong/ml_hackers/blob/master/5.1.1.md][5.1.1.md at github    https://github.com/caoxudong/ml_hackers/blob/master/5.1.1.md]]
 
@@ -57,9 +57,11 @@
 
     [[https://github.com/caoxudong/translation/blob/master/java/jvm/JVM_performance_optimization_Part_1_A_JVM_technology_primer.md][Address at GitHub]]
 
-**** TODO The Nature of Lisp
-     SCHEDULED: <2012-11-20 周二>
 
-     Original address [[http://www.defmacro.org/ramblings/lisp.html][http://www.defmacro.org/ramblings/lisp.html]]
+*** Books
 
-
+**** DOING Java Performance
+     SCHEDULED: <2012-11-26 周一>
+     
+     [[http://www.amazon.cn/Java-Performance-Hunt-Charlie/dp/0137142528/ref=sr_1_1?ie=UTF8&qid=1353914918&sr=8-1][Java Performance]]
+     [[https://github.com/caoxudong/java_performance][Address at Github    https://github.com/caoxudong/java_performance]]
