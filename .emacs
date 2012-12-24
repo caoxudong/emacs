@@ -119,3 +119,8 @@
 (setq org-export-with-sub-superscripts '{})
 ;;add costumized status
 (setq org-todo-keywords '((type "TODO" "DOING" "|" "DONE" "CANCELED")))
+
+
+;;add git-emacs
+(add-to-list 'load-path "e:\\workspace\\git\\git-emacs")
+(require 'git-emacs)
