@@ -41,23 +41,9 @@
 
 
 ;;设定语言环境为utf-8
-;;(setq current-language-environment "UTF-8") 
-;;(setq default-input-method "chinese-py")    
-;;(setq locale-coding-system 'utf-8)
-;;(set-terminal-coding-system 'utf-8)
-;;(set-keyboard-coding-system 'utf-8)
-;;(set-selection-coding-system 'utf-8)
-;;(prefer-coding-system 'utf-8)
-(set-language-environment 'Chinese-GB)
-(set-keyboard-coding-system 'euc-cn)
-(set-clipboard-coding-system 'euc-cn)
-(set-terminal-coding-system 'euc-cn)
-(set-buffer-file-coding-system 'euc-cn)
-(set-selection-coding-system 'euc-cn)
-(modify-coding-system-alist 'process "*" 'euc-cn)
-(setq default-process-coding-system
-    '(euc-cn . euc-cn))
-(setq-default pathname-coding-system 'euc-cn)
+(setq current-language-environment "UTF-8") 
+(setq default-buffer-file-coding-system 'utf-8)
+(prefer-coding-system 'utf-8)
 
 
 ;;start ido-mode, another buffer manager
