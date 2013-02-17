@@ -3,48 +3,48 @@
 ** ImportNew
 
 *** DONE Java Versions, Features and History
-    CLOSED: [2012-11-20 周二 10:22] SCHEDULED: <2012-11-02 周五>
+    CLOSED: [2012-11-20 10:22] SCHEDULED: <2012-11-02>
 
     original address [[http://javapapers.com/core-java/java-features-and-history/]]
 
 
 *** DONE How Spring 3.1 Environments & Profiles will make your life better
-    CLOSED: [2012-11-20 周二 10:18] SCHEDULED: <2012-11-09 周五>
+    CLOSED: [2012-11-20 10:18] SCHEDULED: <2012-11-09>
 
     original address [[http://diarmuidmoloney.wordpress.com/2012/04/07/spring-environments/][http://diarmuidmoloney.wordpress.com/2012/04/07/spring-environments/]]
 
 
 *** DONE Where is the "Father of Java"
-    CLOSED: [2012-11-26 周一 15:25] SCHEDULED: <2012-11-20 周二>
+    CLOSED: [2012-11-26 15:25] SCHEDULED: <2012-11-20>
 
     original address [[http://blog.jelastic.com/2012/06/28/where-is-the-father-of-java/][http://blog.jelastic.com/2012/06/28/where-is-the-father-of-java/]]
 
 *** DONE Five Way To Maximize Java NIO And NIO.2
-    CLOSED: [2012-11-09 周二 14:38]
+    CLOSED: [2012-11-09 14:38]
 
     [[https://github.com/caoxudong/translation/blob/master/java/nio/Five_way_%20to_maximize_Java_NIO_and_NIO.2.md][Address at GitHub]]
 
 
 *** DONE JVM Performance Optimization: Part 1 A JVM Technology Primer
-    CLOSED: [2012-12-04 周二 11:58] SCHEDULED: <2012-11-20 周二>
+    CLOSED: [2012-12-04 11:58] SCHEDULED: <2012-11-20>
 
    [[https://github.com/caoxudong/translation/blob/master/java/jvm/JVM_performance_optimization_Part_1_A_JVM_technology_primer.md][Address at GitHub]]
 
 
 *** DONE JVM Performance Optimization: Part 2 Compilers
-    CLOSED: [2012-12-24 周一 18:00] SCHEDULED: <2012-12-06 周四>
+    CLOSED: [2012-12-24 18:00] SCHEDULED: <2012-12-06>
 
    [[https://github.com/caoxudong/translation/blob/master/java/jvm/JVM_performance_optimization_Part_2_Compilers.md][Address at GitHub]]
 
 
 *** DONE JVM Performance Optimization: Part 3 Garbage Collection
-    CLOSED: [2013-01-04 周五 17:55] SCHEDULED: <2012-12-24 周一>
+    CLOSED: [2013-01-04 17:55] SCHEDULED: <2012-12-24>
 
    [[https://github.com/caoxudong/translation/blob/master/java/jvm/JVM_performance_optimization_Part_3_Garbage_collection.md][Address at GitHub]]
 
 
 *** DONE JVM Performance Optimization: Part 4 C4 garbage collection for low-latency Java applications
-    CLOSED: [2013-01-28 ��һ 17:49] SCHEDULED: <2013-01-04 周五>
+    CLOSED: [2013-01-28 17:49] SCHEDULED: <2013-01-04>
 
    [[https://github.com/caoxudong/translation/blob/master/java/jvm/JVM_performance_optimization_Part_4_C4_garbage_collection_for_low-latency_Java_applications.md][Address at GitHub]]
 
@@ -52,37 +52,8 @@
 
 ** Cooperation
 
-*** Machine Learning for Hackers
-
-**** DONE 翻译2.1 ~ 2.5
-   CLOSED: [2012-11-19 周一 11:09] SCHEDULED: <2012-10-24 周三>
-
-   翻的有点慢，后续需要加快速度
-
-
-**** DONE 5.1 Regression: Predicting Page View
-    CLOSED: [2012-11-20 周二 09:58] SCHEDULED: <2012-11-19 周一>
-
-    [[https://github.com/caoxudong/ml_hackers/blob/master/5.1.md][5.1.md at github    https://github.com/caoxudong/ml_hackers/blob/master/5.1.md]]
-
-
-**** CANCELED 5.1.1 The Baseline Model
-     CLOSED: [2012-12-06 周四 16:53] SCHEDULED: <2012-11-20 周二>
-
-    [[https://github.com/caoxudong/ml_hackers/blob/master/5.1.1.md][5.1.1.md at github    https://github.com/caoxudong/ml_hackers/blob/master/5.1.1.md]]
-
-    This project is dead?
-    Yes, it's dead.
-
-
 ** Roll my own
 
 *** Books
-
-**** DOING Java Performance
-     SCHEDULED: <2012-11-26 周一>
-     
-     [[http://www.amazon.cn/Java-Performance-Hunt-Charlie/dp/0137142528/ref=sr_1_1?ie=UTF8&qid=1353914918&sr=8-1][Java Performance]]
-     [[https://github.com/caoxudong/java_performance][Address at Github    https://github.com/caoxudong/java_performance]]
 
 
