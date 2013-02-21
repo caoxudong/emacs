@@ -110,3 +110,8 @@
 ;;add git-emacs
 (add-to-list 'load-path "e:\\workspace\\git\\git-emacs")
 (require 'git-emacs)
+
+;;add cscope
+(add-to-list 'load-path "E:\\software\\program\\etc\\emacs\\plugins\\cscope\\cscope-15.8a\\contrib\\xcscope")
+(require 'xcscope)
+
