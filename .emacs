@@ -74,8 +74,8 @@
 ;;add org and publish directory
 (setq org-publish-project-alist
       '(("org-notes"
-         :base-directory "E:\\workspace\\git\\emacs\\org\\org"
-         :publishing-directory "E:\\workspace\\git\\emacs\\org\\publish"
+         :base-directory "E:\\workspace\\repositories\\emacs\\org\\org"
+         :publishing-directory "E:\\workspace\\repositories\\emacs\\org\\publish"
          :base-extension "org"
          :recursive t
          :publishing-function org-publish-org-to-html
@@ -86,8 +86,8 @@
          :headline-levels 4
          :section-numbers nil)
         ("org-static"
-         :base-directory "E:\\workspace\\git\emacs\\org\\org"
-         :publishing-directory "E:\\workspace\\git\\emacs\\org\\publish"
+         :base-directory "E:\\workspace\\repositories\emacs\\org\\org"
+         :publishing-directory "E:\\workspace\\repositories\\emacs\\org\\publish"
          :recursive t
          :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|swf\\|zip\\|gz\\|txt\\|el"
          :publishing-function org-publish-attachment)
@@ -98,7 +98,7 @@
 ;;set timestamp when TODO changed to CLOSED
 (setq org-log-done 'time)
 ;;add global agenda files
-(setq org-agenda-files (list "E:/workspace/git/emacs/org/translation.org"
+(setq org-agenda-files (list "E:/workspace/repositories/emacs/org/translation.org"
                              "E:/workspace/company/project/etc/projects.org"
                            ))
 ;;set not convert sub superscripts
@@ -108,7 +108,7 @@
 
 
 ;;add git-emacs
-(add-to-list 'load-path "e:\\workspace\\git\\git-emacs")
+(add-to-list 'load-path "e:\\workspace\\repositories\\git-emacs")
 (require 'git-emacs)
 
 ;;add cscope
