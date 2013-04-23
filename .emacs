@@ -98,9 +98,7 @@
 ;;set timestamp when TODO changed to CLOSED
 (setq org-log-done 'time)
 ;;add global agenda files
-(setq org-agenda-files (list "E:/workspace/repositories/emacs/org/translation.org"
-                             "E:/workspace/company/project/etc/projects.org"
-                           ))
+(setq org-agenda-files (list"E:/workspace/company/project/etc/projects.org"))
 ;;set not convert sub superscripts
 (setq org-export-with-sub-superscripts '{})
 ;;add costumized status
