@@ -102,7 +102,7 @@
 ;;set not convert sub superscripts
 (setq org-export-with-sub-superscripts '{})
 ;;add costumized status
-(setq org-todo-keywords '((type "TODO" "DOING" "|" "DONE" "CANCELED")))
+(setq org-todo-keywords '((type "TODO" "DOING" "SUSPENDED" "|" "DONE" "CANCELED")))
 
 
 ;;add git-emacs
