@@ -35,12 +35,12 @@
 (color-theme-darksorrow)
 
 
-;;enable ibuffer
+;;启用ibuffer支持，增强*buffer*
 (require 'ibuffer)
 (global-set-key (kbd "C-x C-b") 'ibuffer)
 
 
-;;set utf-8 charset
+;;设定语言环境为utf-8
 (setq current-language-environment "UTF-8") 
 (setq default-buffer-file-coding-system 'utf-8)
 (prefer-coding-system 'utf-8)
