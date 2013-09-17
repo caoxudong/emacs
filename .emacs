@@ -14,6 +14,10 @@
  ;; If there is more than one, they won't work right.
  )
 
+;;load packages in site-lisp
+(let ((default-directory "/usr/share/emacs/site-lisp/"))
+  (normal-top-level-add-subdirs-to-load-path))
+
 
 ;;show line number and column number
 (global-linum-mode t)
@@ -78,4 +82,5 @@
 (setq org-export-with-sub-superscripts '{})
 ;;add costumized status
 (setq org-todo-keywords '((type "TODO" "DOING" "SUSPENDED" "|" "DONE" "CANCELED")))
+
 
