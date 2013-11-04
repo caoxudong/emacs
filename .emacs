@@ -14,6 +14,8 @@
  ;; If there is more than one, they won't work right.
  )
 
+(setq default-directory "~" )
+
 ;;load packages in site-lisp
 (let ((default-directory "/usr/share/emacs/site-lisp/"))
   (normal-top-level-add-subdirs-to-load-path))
@@ -31,6 +33,9 @@
 ;;hide tool bar
 ;;(tool-bar-mode nil)
 
+
+;;show () [] {} pair
+(show-paren-mode t)
 
 ;;color theme
 (add-to-list 'load-path "~/workspace/repositories/emacs/plugins/color-theme")
@@ -69,18 +74,22 @@
 (add-hook 'org-mode-hook 'turn-on-font-lock)
 (add-hook 'org-mode-hook 
     (lambda () (setq truncate-lines nil)))
- 
 (global-set-key "\C-cl" 'org-store-link)
 (global-set-key "\C-ca" 'org-agenda)
 (global-set-key "\C-cb" 'org-iswitchb)
-
 ;;set timestamp when TODO changed to CLOSED
 (setq org-log-done 'time)
 ;;add global agenda files
-(setq org-agenda-files (list"~/doc/company/org/tasks.org" "~/doc/company/org/info.org"))
+(setq org-agenda-files (list"~/doc/company/org/info.org"))
 ;;set not convert sub superscripts
 (setq org-export-with-sub-superscripts '{})
 ;;add costumized status
 (setq org-todo-keywords '((type "TODO" "DOING" "SUSPENDED" "|" "DONE" "CANCELED")))
 
+
+;;set cscope
+(setq exec-path (cons "/usr/local/bin" exec-path))  
+(add-to-list 'load-path "/usr/share/emacs/site-lisp/")
+(require 'xcscope)
+(setq cscope-do-not-update-database t)
 
