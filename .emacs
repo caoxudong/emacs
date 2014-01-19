@@ -3,10 +3,6 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(column-number-mode t)
- '(make-backup-files nil)
- '(org-agenda-files nil)
- '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -14,14 +10,22 @@
  ;; If there is more than one, they won't work right.
  )
 
+
 ;;load packages in site-lisp
 (let ((default-directory "/usr/share/emacs/site-lisp/"))
   (normal-top-level-add-subdirs-to-load-path))
 
 
-;;show line number and column number
+;;no backup file
+(make-backup-files nil)
+
+
+;;Show line number and column number
 (global-linum-mode t)
 (column-number-mode t)
+
+;;show parentheses
+(show-paren-mode 1)
 
 
 ;;auto-complete
@@ -29,11 +33,11 @@
 
 
 ;;hide tool bar
-;;(tool-bar-mode nil)
+(tool-bar-mode nil)
 
 
 ;;color theme
-(add-to-list 'load-path "~/workspace/repositories/emacs/plugins/color-theme")
+(add-to-list 'load-path "~/workspace/emacs/plugins/color-theme")
 (require 'color-theme)
 (color-theme-initialize)
 (color-theme-darksorrow)
@@ -53,14 +57,17 @@
 ;;start ido-mode, another buffer manager
 (ido-mode t)
 
+
+;;in dired mode, use 'a' key to enter a subdir, without create a new buffer
 (put 'dired-find-alternate-file 'disabled nil)
+
 
 ;;change 'yes' and 'no' to 'y' and 'n'
 (fset 'yes-or-no-p 'y-or-n-p)
 
 
 ;;add markdown mode
-(autoload 'markdown-mode "~/workspace/repositories/emacs/plugins/markdown/markdown-mode.el" "Major mode for editing Markdown files" t) 
+(autoload 'markdown-mode "~/workspace/emacs/plugins/markdown/markdown-mode.el" "Major mode for editing Markdown files" t) 
 (setq auto-mode-alist (cons '("\\.md" . markdown-mode) auto-mode-alist))
 
 
@@ -77,10 +84,26 @@
 ;;set timestamp when TODO changed to CLOSED
 (setq org-log-done 'time)
 ;;add global agenda files
-(setq org-agenda-files (list"~/doc/company/org/tasks.org" "~/doc/company/org/info.org"))
+;(setq org-agenda-files (list"~/doc/company/org/tasks.org" "~/doc/company/org/info.org"))
 ;;set not convert sub superscripts
 (setq org-export-with-sub-superscripts '{})
 ;;add costumized status
 (setq org-todo-keywords '((type "TODO" "DOING" "SUSPENDED" "|" "DONE" "CANCELED")))
 
 
+;;create new scratch by key F10
+(defun create-scratch-buffer nil
+"Create scratch buffers"             
+  (interactive)
+  (let ((n 0)
+        scratch-buf)
+    (while (progn
+             (setq scratch-buf (concat "-scratch-"
+                                   (if (= n 0) "0" (int-to-string n))
+                                   "-"))
+             (incf n)
+             (get-buffer scratch-buf)))
+    (switch-to-buffer (get-buffer-create scratch-buf))
+    (text-mode)
+    ))
+(global-set-key [(f10)] 'create-scratch-buffer)
