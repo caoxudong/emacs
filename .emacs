@@ -23,6 +23,7 @@
 (global-linum-mode t)
 (column-number-mode t)
 
+
 ;;show parentheses
 (show-paren-mode 1)
 
