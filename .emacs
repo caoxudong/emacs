@@ -3,6 +3,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+)
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -10,10 +11,8 @@
  ;; If there is more than one, they won't work right.
  )
 
-
 ;;load packages in site-lisp
-(let ((default-directory "/usr/share/emacs/site-lisp/"))
-  (normal-top-level-add-subdirs-to-load-path))
+(add-to-list 'load-path "/usr/share/emacs/site-lisp/")
 
 
 ;;no backup file
@@ -35,6 +34,9 @@
 ;;hide tool bar
 (tool-bar-mode nil)
 
+
+;;show () [] {} pair
+(show-paren-mode t)
 
 ;;color theme
 (add-to-list 'load-path "~/workspace/emacs/plugins/color-theme")
@@ -76,11 +78,9 @@
 (add-hook 'org-mode-hook 'turn-on-font-lock)
 (add-hook 'org-mode-hook 
     (lambda () (setq truncate-lines nil)))
- 
 (global-set-key "\C-cl" 'org-store-link)
 (global-set-key "\C-ca" 'org-agenda)
 (global-set-key "\C-cb" 'org-iswitchb)
-
 ;;set timestamp when TODO changed to CLOSED
 (setq org-log-done 'time)
 ;;add global agenda files
@@ -107,3 +107,9 @@
     (text-mode)
     ))
 (global-set-key [(f10)] 'create-scratch-buffer)
+
+
+;;set cscope
+(setq exec-path (cons "/usr/local/bin" exec-path))  
+(require 'xcscope)
+(setq cscope-do-not-update-database t)
